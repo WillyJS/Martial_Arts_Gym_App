@@ -1,22 +1,39 @@
-Project SER316
+# Martial-Arts-Gym-App
 
-This is the initial dump for the SER316 project. It is a slightly modified version of the Memoranda project from memoranda.sf.net
+## This project's purpose is to enchance the memoranda application which has been largely dormant since 2007.  The approach to this project was to reverse engineer the features and turn this into a martial arts gym application.  I was part of a group where we used Agile software development methodology with Scrum.  We did this project in a matter of 3 sprints that took over 7.5 weeks to complete. 
 
-The purpose of this project is to enhance the Memoranda application.
+## My responsibilities during these sprints were: 
+  - To stabilize the application.
+  - Build login and registration system.
+  - Updating GUI for gym registration and registered users management.
+  - Fix build versioning from Gradle.
 
-Memoranda is a project that has largely been dormant since 2007, so why are we using it? This codebase has been used in the past, it is of sufficient size and scope to challenge your skills in understanding a complete application (it has somewhere in the neighborhood of 25k lines of code). It also has features that just about anyone who has ever used a calendaring application can understand. 
+# Below is what the original software looked like.
+## There was no login system and no way to manage registered users. 
+![](/memoranda.png)
 
-In the docs directory is an initial set of analysis models - class diagrams and sequence diagrams in UML, that a previous team did as part of their solution process. These were included only in the event that you may want to use these as a head start on your design and implementation work. You are absolutely not required to use or implement anything in the analysis document!
+# Added a login window for employees of the gym to log into
+![](/Gym_Login.png)
 
-Your first step should be to clone the github repository (easiest way is to clone directly into your Eclipse Workspace folder). You can watch the short video on how to clone and run Memoranda: https://youtu.be/mNPek5NABpI.
+# Below is what the updated home page looks like
+## If the user logged in is of type ADMIN he would see additional register and manage buttons up top.
+![](/Dojo_Home.png)
 
-You should then be able to run the project. The included Gradle script and Wrapper should work. You should be able to use "gradle run" in the command line to run Memorande through Gradle. In due course you will need to add things to the Gradle file (eg. add Unit Test).
+# Below is a snapshot of registering a user.
+## Only admin users are capable of registering a new user
+![](/Dojo_new_registration.png)
 
-Start of with changing little things to get to know Memoranda (before the project starts) and just play around. 
+# Below is a snapshot of registered users database.
+## Only accessible to admin users which lists all registered users from database.
+![](/dojo_manageUsers.png)
 
-After that go back to the initial version and start your SCRUM process and document all changes through GitHub and Taiga (like I said, if it isn’t in GitHub/taiga it does not count).
+# Below is a snapshot of editing users in database.
+## Only accessible to admin users which they can use to edit user information or remove user from database.
+![](/userManagement.png)
 
-Good luck and have fun!
 
-Dr. Mehlhase
+
+
+
+
 
