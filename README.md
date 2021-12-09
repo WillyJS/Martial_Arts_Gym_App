@@ -13,7 +13,7 @@
 ![](/memoranda.png)
 
 # Added a login window for employees of the gym to log into
-![](/Gym_Login.png)
+![](/GymLogin.png)
 
 # Below is what the updated home page looks like
 ## If the user logged in is of type ADMIN he would see additional register and manage buttons up top.
